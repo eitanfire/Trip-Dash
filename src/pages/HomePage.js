@@ -20,6 +20,9 @@ const HomePage = () => {
               Here's the deal: Let our trip members bring you a drink or a treat
               and help send us to Guatemala!
             </p>
+            <p>
+For the week of April 10th - April 14th buy a drink and/or a pastry and support our trip.
+            </p>
           </h3>
         </Row>
       </Container>

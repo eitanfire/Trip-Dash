@@ -3,9 +3,21 @@
   /* float:inline-start; */
 }
 
-.NavBar {
+.NavBar, .site-footer {
   background: 
   /* url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/2560px-Flag_of_Guatemala.svg.png),  */
   linear-gradient(white, blue);
   background-size:fit-content;
 }
+
+/* .site-footer {
+   padding: 15px 0;
+  margin-top: 2rem;
+  margin-bottom: -5rem;
+  opacity: 0.85;
+  color: white;
+  font-size: larger;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
