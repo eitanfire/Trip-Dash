@@ -1,3 +1,9 @@
+body {
+     position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
 .logo {
   height: 10rem;
   /* float:inline-start; */
@@ -10,7 +16,7 @@
   background-size:fit-content;
 }
 
-/* .site-footer {
+ .site-footer {
    padding: 15px 0;
   margin-top: 2rem;
   margin-bottom: -5rem;
@@ -20,4 +26,4 @@
     position: absolute;
   bottom: 0;
   width: 100%;
-} */
+}
