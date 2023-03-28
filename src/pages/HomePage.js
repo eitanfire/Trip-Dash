@@ -4,16 +4,21 @@ import '../App.css';
 const HomePage = () => {
     return (
       <Container>
-        <Row className="text-center">
-          <h1>Coffee for a Cause</h1>
+        <Row
+     >
+          <h1></h1>
           <p>
-            <h2>Guatemala is known for its exceptional coffee.</h2>
+            <Card>
+              <CardHeader className="bg-primary text-white">
+                <h2>Guatemala is known for its exceptional coffee.</h2>
+              </CardHeader>
+            </Card>
           </p>
         </Row>
         <Row>
           <h3>
             <p>
-              It seems apropriate then to use coffee to help make our trip to
+              Let's use coffee to help make our trip to
               Guatemala inclusive regardless of financial status.
             </p>
             <p>
@@ -21,13 +26,17 @@ const HomePage = () => {
               and help send us to Guatemala!
             </p>
             <p>
-For the week of April 10th - April 14th buy a drink and/or a pastry and support our trip.
+              For the week of April 10th - April 14th buy a drink and/or a
+              pastry and support our trip.
             </p>
           </h3>
         </Row>
-        <Button 
-        >
-        Order Here</Button>
+        <Row>
+          <Col></Col>
+          <Col>
+            <Button>Order Here</Button>
+          </Col>
+        </Row>
       </Container>
     );
 };
