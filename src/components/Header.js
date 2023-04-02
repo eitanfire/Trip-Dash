@@ -1,4 +1,5 @@
 import { Col, Row, Container, Navbar, NavbarBrand } from "reactstrap";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 const Header = () => {
@@ -10,6 +11,9 @@ const Header = () => {
               ☕️ Coffee for a Cause 🇬🇹
             </h1>
           </NavbarBrand>
+          <Link to="order">
+            <h3 href="order">Order</h3>
+          </Link>
         </Container>
       </Navbar>
     );

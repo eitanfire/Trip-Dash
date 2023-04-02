@@ -10,6 +10,7 @@ body {
   align-items: center;
   margin-left: 37%;
   margin-bottom: 5%;
+  border: .5rem double blue;
 }
 
 .NavBar {
