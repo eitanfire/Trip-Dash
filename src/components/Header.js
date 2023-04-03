@@ -6,14 +6,20 @@ const Header = () => {
     return (
       <Navbar className="NavBar" dark color="primary" sticky="top" expand="md">
         <Container>
-          <NavbarBrand href="/">
-            <h1 id="header-title" className="col col-ms-8">
-              ☕️ Coffee for a Cause 🇬🇹
-            </h1>
-          </NavbarBrand>
-          <Link to="order">
-            <h3 href="order">Order</h3>
-          </Link>
+          <Row>
+            <Col>
+              <NavbarBrand href="/">
+                <h1 id="header-title" className="col col-ms-8">
+                  ☕️ Coffee for a Cause 🇬🇹
+                </h1>
+              </NavbarBrand>
+            </Col>
+            <Col>
+              <Link to="order">
+                <h3 href="order">Order</h3>
+              </Link>
+            </Col>
+          </Row>
         </Container>
       </Navbar>
     );
