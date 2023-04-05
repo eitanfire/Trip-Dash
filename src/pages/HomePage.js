@@ -7,20 +7,16 @@ const HomePage = () => {
     return (
       <Container>
         <CardHeader id="card-header">
-          <p>
             <h2>
               Let our trip members bring you a drink or a treat and help send us
               to Guatemala!
             </h2>
-          </p>
         </CardHeader>
         <CardHeader id="card-body">
-          <p>
             <h1>
               For the week of April 10th - April 14th buy a drink and/or a
               pastry and support our trip.
             </h1>
-          </p>
         </CardHeader>
         <Link to="order">
           <Button id="order-button">Order Here</Button>

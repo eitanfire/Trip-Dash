@@ -56,8 +56,9 @@ body {
 #header-title {
   color: white;
   font-size: 3rem;
-  /* text-align: center; */
+  /* text-align:right; */
   max-height: 2rem;
+  margin-left: 50%;
 }
 
 #order-button {
