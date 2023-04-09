@@ -14,9 +14,9 @@ const Header = () => {
                 </h1>
               </NavbarBrand>
             </Col>
-            <Col>
+            <Col className="order-link">
               <Link to="order">
-                <h3 classhref="order">Order</h3>
+                <h3>Order</h3>
               </Link>
             </Col>
           </Row>

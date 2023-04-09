@@ -56,15 +56,20 @@ body {
 #header-title {
   color: white;
   font-size: 3rem;
-  /* text-align:right; */
   max-height: 2rem;
   margin-left: 50%;
+}
+
+.order-link {
+margin-left: 25%;
 }
 
 #order-button {
 max-width: fit-content;
 background-color: blue;
-margin:auto;
+margin-left: 50%;
+margin-right: 41%;
+margin-bottom: 1rem;
 }
 
 #card-header {
@@ -75,6 +80,7 @@ margin:auto;
     align-items: center;
     justify-content: center;
     margin: 1rem;
+    padding: 1rem;
 }
 
 #card-header:before {    
@@ -97,6 +103,8 @@ margin:auto;
     align-items: center;
     justify-content: center;
     margin: 1rem;
+    Padding: 1rem;
+
 }
 
 #card-body:before {    
